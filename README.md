@@ -1,2 +1,2 @@
 # Easy hospital
-![Banner](https://raw.githubusercontent.com/uni-solve/Remedify/main/Header.png)
+![Banner](https://raw.githubusercontent.com/gcu-uz/easyHospital/main/Header.png)
