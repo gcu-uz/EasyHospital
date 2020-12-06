@@ -508,6 +508,7 @@ body {
   padding: 0;
   border: 0;
   color: black;
+  /* background-color: #ebf0ff; */
 }
 body.active {
   overflow: hidden;

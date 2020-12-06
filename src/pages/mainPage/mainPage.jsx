@@ -8,9 +8,7 @@ import third from "../../assets/img/3.png";
 import fourth from "../../assets/img/4.png";
 import fifth from "../../assets/img/5.png";
 import six from "../../assets/img/6.png";
-import footlogo from "../../assets/img/footlogo.png";
-// import element from "../../assets/img/element.png";
-// import element2 from "../../assets/img/element2.png";
+import logo2 from "../../assets/img/logo2.png";
 import element3 from "../../assets/img/element3.png";
 import img1 from "../../assets/img/img1.png";
 import img2 from "../../assets/img/img2.png";
@@ -20,6 +18,8 @@ import profile from "../../assets/img/profile.png";
 import linew from "../../assets/img/linew.png";
 import ill1 from "../../assets/img/ill1.png";
 import ill2 from "../../assets/img/ill2.png";
+
+import { Link } from "react-router-dom";
 
 import "./style.css";
 
@@ -43,7 +43,7 @@ const MainPage = () => {
               <a href="">Testimonials</a>
             </li>
             <li>
-              <a href="">About us</a>
+              <Link to="/zayavka"> Zayavka </Link>
             </li>
           </ul>
 
@@ -112,7 +112,7 @@ const MainPage = () => {
                     <a href="">Testimonials</a>
                   </li>
                   <li>
-                    <a href="">About us</a>
+                    <Link to="/zayavka"> Zayavka </Link>
                   </li>
                 </ul>
               </div>
@@ -528,7 +528,7 @@ const MainPage = () => {
             <div className="col-md-3 text-left">
               <img
                 className="header_logo"
-                src={newLogo}
+                src={logo2}
                 alt=""
                 style={{ marginBottom: "17px" }}
               />
@@ -536,11 +536,11 @@ const MainPage = () => {
                 className="article text-left"
                 style={{ color: "white", marginBottom: "30px" }}
               >
-                Trafalgar provides progressive, and affordable healthcare,
+                EasyHospital provides progressive, and affordable healthcare,
                 accessible on mobile and online for everyone
               </p>
               <p className="article text-left" style={{ color: "white" }}>
-                ©Trafalgar PTY LTD 2020. All rights reserved
+                ©EasyHospital PTY LTD 2020. All rights reserved
               </p>
             </div>
             <div className="col-md-3">

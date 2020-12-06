@@ -1,0 +1,20 @@
+.leftBar {
+  box-shadow: 0px 0px 10px #ccc;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+.leftBarImg {
+  padding: 24px;
+}
+.leftBarList {
+  cursor: pointer;
+  color: #52575c;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.leftBarList:hover {
+  color: #336cfb;
+}
